@@ -1,0 +1,454 @@
+html{
+    overflow: -moz-scrollbars-vertical; 
+    overflow-y: scroll;
+}
+
+body{
+    background-image:url("../images/wallpaper.jpg");
+    
+}
+
+.noimage{
+    background-image:none;
+}
+
+/*Header*/
+header{
+   margin:8px 8px 8px 8px;
+   border-radius:10px;
+   padding:0;
+   background:rgb(78, 78, 78);
+   box-shadow:black 0 0 8px;
+   z-index:9999;
+   position: sticky;
+}
+
+/*Navigation Content*/
+ul{
+    margin:0;
+    padding:0;
+}
+
+li{
+    list-style-type:none;
+    display:inline-block;
+    margin:40px 25px 0 50px;
+    padding:10px;
+    font-family:Cambria;
+    font-size:13px;
+    text-transform:uppercase;
+}
+
+ul .loggedin{
+    align-items:right;
+    position:absolute;
+    background-image:url("../images/login.png");
+    background-size:39px;
+    text-indent:45px;
+    background-repeat:no-repeat;
+    top: -20%;  /* position the top  edge of the element at the middle of the parent */
+    left: 77.7%;; /* position the left edge of the element at the middle of the parent */
+    margin-right:0;
+}
+
+ul .login{
+    position:relative;
+    right:-400;
+    top:-20;
+    background-image:url("../images/login.png");
+    background-size:40px;
+    text-indent:45px;
+    background-repeat:no-repeat;
+
+}
+
+ul .logout{
+    position:absolute;
+    right:95;
+    top:40;
+    background-repeat:no-repeat;
+}
+
+ul .yourorder{
+    position:absolute;
+    right:52;
+    top:12;
+}
+
+/*Logo in Navigation*/
+header .logo{
+    background-image:url("../images/GOROnline.png");
+    background-size:100px;
+    margin:0 0 0 20px;
+    height:75px;
+    background-repeat:no-repeat;
+    width:90px;
+    top:-29px;
+    right:-15px;
+    position:relative;
+    text-indent: -99999;
+    padding:0;
+}
+
+li a{
+    color:white;
+    text-decoration:none;
+}
+
+li a:hover{
+    color:rgb(77, 77, 223);
+    text-decoration:none;
+}
+
+/*Content Section*/ 
+body{
+    margin:0;
+    padding:0;
+  }
+
+/*Welcome Sign*/
+section .welcome{
+    background-color:rgb(100, 226, 100);
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    font-size:30px;
+    font-family:'Times New Roman';
+    border-radius:3px;
+    height:80px;
+    background-image:url("../Images/welcome.png");
+}
+
+/*Features*/
+.menu{
+    background:rgb(231, 231, 231);
+    display:flex;
+    padding:20px;
+    justify-content:center;
+    flex-flow:row wrap;
+    background-image:url("../images/features.png");
+    background-repeat:no-repeat;
+    background-size:103%;
+}
+
+/*Align Figure Setings*/
+.menu figure{
+    text-align:center;
+}
+
+/*Feature Images*/
+.menu figure img{
+    border-radius:20px;
+    width:250px;
+    height:150px;
+    box-shadow:black 0 0 5px;
+}
+
+/*Feature Captions*/
+.menu figure figcaption{
+    margin:20px;
+    background:rgb(255, 255, 255, .4);
+    border-radius:8px;
+    box-shadow:black 0 0 5px;
+    padding:7px;
+}
+
+/*Break Flexbox*/
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+
+/* Informasi Terbaru Image */
+.content img{
+margin:8px 10px 8px 10px;
+width:300px;
+height:200px;
+border-radius:10px;
+}
+
+/* Informasi Terbaru Text */
+.content .text{
+    width:300px;
+    height:200px;
+    position:relative;
+    top:10px;
+    left:10px;
+    font-family:Georgia;
+    margin:0 15px 5px 0;
+    padding:15px;
+    border-right:1px solid black;
+}
+
+/*Register Now dan Order Now Button*/
+.menu button, .bayar{
+      background-color:rgb(211, 211, 211);
+      border-radius:8px;
+      border-color:white;
+      box-shadow:black 0 0 2px;
+      outline:none;
+      padding:20px;
+      font-size:15px;
+      font-family:Georgia;
+  }
+
+  /*Register Now or Order Now Button Hover Effects*/
+.menu button:hover{
+      background-color:rgb(126, 126, 126);
+  }
+
+/*Line Thickness Settings*/
+.line{
+    width:35%;
+    border: none;
+    height: 2px;
+    background-color: #333;
+}
+
+/*Information Title*/
+.info{
+    text-align:center;
+    font-size:20px;
+    margin-top:20px;
+    font-family:"Calisto MT";
+  }
+
+  /*Align Conctacs Contents Settings*/
+.kontak{
+    text-align:center;
+}
+
+/* Layour for Login Form */
+.login-form
+{
+    margin-top:30px;
+    text-align:center;
+    background-color:rgb(78, 78, 78);
+    float:left;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:340px;
+    height:350px;
+    border-radius:10px;
+    box-shadow:black 0 0 8px;
+    font-family:Georgia;
+}
+
+/*Fieldset and Legends Form Settings*/
+fieldset, legend{
+    margin-top:10px;
+    color:white;
+    border: 0;
+}
+
+/*Label Colors*/
+label{
+    color:white;
+}
+
+/* Login-Form Input Layout Settings */
+.login-form input{
+    width:200px;
+    height:30px;
+    margin-top:5px;
+}
+
+/* Tombol Tidak Punya Akun */
+.login-newuser{
+    position:relative;
+    top:50;
+    left:95;
+    color:white;
+}
+
+/* Tombol Tidak Punya Akun Effects */
+.login-newuser:hover{
+    text-decoration:none;
+    color:0;
+}
+
+
+/* REGISTER FORM SECTION*/
+
+.register-form
+{
+    margin-top:30px;
+    text-align:center;
+    background-color:rgb(78, 78, 78);
+    float:left;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:340px;
+    height:480px;
+    border-radius:10px;
+    box-shadow:black 0 0 8px;
+    font-family:Georgia;
+    margin-bottom:20px;
+}
+
+/* Input Layout Settings */
+.register-form input{
+    width:200px;
+    height:30px;
+    margin-top:5px;
+}
+
+/* Radio Layout Settings */
+.register-form .radio{
+    width:20px;
+    height:20px;
+    margin-top:5px;
+}
+
+/* Display COntent */
+.content{
+    display:flex;
+}
+
+/* ORDER FORM SECTION */
+
+.order-form{
+    margin-top:30px;
+    background-color:rgb(78, 78, 78);
+    float:left;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:900px;
+    height:600px;
+    border-radius:10px;
+    box-shadow:black 0 0 8px;
+    font-family:Cambria;
+    margin-bottom:20px;
+}
+
+/* Input and Legend Settings */
+.order-form input, legend{
+    margin-left:20px;
+}
+
+/* Button Form Settings */
+.buttondate{
+    float:left;
+    position:relative;
+    height:40px;
+    width:100px;
+    left:50%;
+    transform:translateX(-50%);
+    border-radius:10px;
+    box-shadow:black 0 0 10px;
+}
+
+/* Button Hover */
+.buttondate:hover{
+    background-color:rgb(116, 207, 146);
+}
+
+/*Fieldset Border Settings */
+fieldset{
+    border: 0;
+}
+
+/* Order Form Legend Settings */
+.order-form legend{
+    text-align:center;
+    font-size:40px;
+    margin:10px 0 10px 15px;
+}
+
+/* Order Form Link Settings */
+.order-form a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+    position:absolute;
+    right:20px;
+    bottom:20px;
+}
+
+/* Hover Settings */
+.order-form a:hover{
+    color:rgb(77, 77, 223);
+    text-decoration:none;
+}
+
+/*Margin and Style Settings */
+.order-form .marginset{
+    text-align:center;
+    margin-bottom:5px;
+    font-size:20px;
+}
+
+/*Align Input and Styles Settings */
+.order-form .alignform{
+    text-align:center;
+    left:45%;
+    font-size:20px;
+    float:left;
+    position:relative;
+    width:100px;
+    transform:translateX(-50%);
+    border-radius:5px;
+}
+
+/*Price on Click Change Settings */
+#price, .order-form h1{
+    position:fixed;
+    bottom:20px;
+    left:20px;
+}
+
+/* Disable Input Form Settings */
+.disable{
+    pointer-events:none;
+    background:rgb(177, 175, 175);
+    text-align:center;
+    left:48%;
+    font-size:20px;
+    float:left;
+    position:relative;
+    transform:translateX(-50%);
+    }
+
+/* Enabled Input Form Settings */
+.enable{
+        text-align:center;
+        left:48%;
+        font-size:20px;
+        float:left;
+        position:relative;
+        width:100px;
+        transform:translateX(-50%);
+        border-radius:5px;
+}
+
+/*Sticky Settings for index.php*/
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 98.8%;
+  }
+  
+  .sticky + section {
+    padding-top: 60px;
+  }
+
+/*Footer Settings */
+footer{ 
+    clear:both;
+    display:flex;
+    position:relative;
+    background-color:rgb(78, 78, 78);
+    height:40px;
+    margin-top:15px;
+    top:50px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+}
